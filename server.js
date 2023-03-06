@@ -47,16 +47,13 @@ app.post("/notice", (req, res) => {
             subject: "Thank you so much so showing interest towards Supersaga -  a 3D Animation tool (windows based application). ",
            html: `
         <p>Here is the download link: </p>
-        <br></br>
         ${data.link}
         <br></br>
         <p>Kindly go through the Read me doc to get a better understanding.</p>
-        <br></br>
+        
         <p>For any queries, please feel free to get in touch with pradeep@supersaga.app</p>
         <br></br>
-        <p>Also, Follow us on</p>
-        <br></br>
-        <p><a href="https://apps.apple.com/us/app/testflight/id899247664" target="_blank" rel="noopener">https://apps.apple.com/us/app/testflight/id899247664</a><br><br>Also, Follow us on<br><strong><br><span style="color: #000000;"><a style="color: #000000;" href="https://www.youtube.com/channel/UCiDHzXKKNyp5KzCcwJR8G7g" target="_blank" rel="noopener">YouTube</a></span><br><span style="color: #000000;"><a style="color: #000000;" href="https://www.instagram.com/supersaga.app/" target="_blank" rel="noopener">Instagram</a></span><br><span style="text-decoration: underline; color: #000000;"><a style="color: #000000; text-decoration: underline;" href="https://twitter.com/supersaga_app" target="_blank" rel="noopener">Twitter</a></span><br>Tiktok</strong></p>
+        Also, Follow us on<br><strong><br><span style="color: #000000;"><a style="color: #000000;" href="https://www.youtube.com/channel/UCiDHzXKKNyp5KzCcwJR8G7g" target="_blank" rel="noopener">YouTube</a></span><br><span style="color: #000000;"><a style="color: #000000;" href="https://www.instagram.com/supersaga.app/" target="_blank" rel="noopener">Instagram</a></span><br><span style="text-decoration: underline; color: #000000;"><a style="color: #000000; text-decoration: underline;" href="https://twitter.com/supersaga_app" target="_blank" rel="noopener">Twitter</a></span><br>Tiktok</strong></p>
         
         `
         }
