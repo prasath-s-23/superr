@@ -44,9 +44,18 @@ app.post("/notice", (req, res) => {
     const options = {
             from: "socials@supersaga.app",
             to: data.email,
-            subject: "Thank you for joining the waitlist to create with SUPERSAGA.",
-            html: `
-        <p>To ensure responsible use and a great experience, we'll be sending invites gradually over time for the PC version. Meanwhile, you should definitely check out the early beta version of the iOS app (available for both iPhone &amp; iPad). Click on the below to download the test flight.<br><br><a href="https://testflight.apple.com/join/W5jXaiIm" target="_blank" rel="noopener">https://testflight.apple.com/join/W5jXaiIm</a><br><br>Please note, to install this successfully you have Test Flight app already install in your device. Get the test flight app here:</p>
+            subject: "Thank you so much so showing interest towards Supersaga -  a 3D Animation tool (windows based application). ",
+           html: `
+        <p>Here is the download link: </p>
+        <br></br>
+        ${data.link}
+        <br></br>
+        <p>Kindly go through the Read me doc to get a better understanding.</p>
+        <br></br>
+        <p>For any queries, please feel free to get in touch with pradeep@supersaga.app</p>
+        <br></br>
+        <p>Also, Follow us on</p>
+        <br></br>
         <p><a href="https://apps.apple.com/us/app/testflight/id899247664" target="_blank" rel="noopener">https://apps.apple.com/us/app/testflight/id899247664</a><br><br>Also, Follow us on<br><strong><br><span style="color: #000000;"><a style="color: #000000;" href="https://www.youtube.com/channel/UCiDHzXKKNyp5KzCcwJR8G7g" target="_blank" rel="noopener">YouTube</a></span><br><span style="color: #000000;"><a style="color: #000000;" href="https://www.instagram.com/supersaga.app/" target="_blank" rel="noopener">Instagram</a></span><br><span style="text-decoration: underline; color: #000000;"><a style="color: #000000; text-decoration: underline;" href="https://twitter.com/supersaga_app" target="_blank" rel="noopener">Twitter</a></span><br>Tiktok</strong></p>
         
         `
