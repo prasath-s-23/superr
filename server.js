@@ -34,8 +34,8 @@ app.post("/notice", (req, res) => {
         // port: 465,
         // secure: true, // use SSL
         auth: {
-            user: "pr13572023@gmail.com",
-            pass: "kycqbkunjqlakemq"
+            user: "socials@supersaga.app",
+            pass: "jqxsfvhblkbowenu"
         },
         tls: {
             rejectUnauthorized: false
